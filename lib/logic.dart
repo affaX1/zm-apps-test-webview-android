@@ -10,17 +10,12 @@ import 'package:install_referrer/install_referrer.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:uuid/uuid.dart';
 
-const _fallbackConfigUrl =
-    'https://crazy-levelup-default-rtdb.firebaseio.com/.json';
+const _fallbackConfigUrl = 'https://crazy-levelup-default-rtdb.firebaseio.com/.json';
 const _cacheKey = 'startup_response_cache_v1';
-const _linkHeadKey = 'stray'; // can change server-side; surfaced for easy edits
-const _linkTailKey = 'swap'; // can change server-side; surfaced for easy edits
+const _linkHeadKey = 'stray';
+const _linkTailKey = 'swap';
 const _gaidCacheKey = 'gaid_cache_v1';
-const _appsflyerDevKey =
-    'p4BpJtUybxYwAQpopNyDK8'; // TODO: set your AppsFlyer dev key for real ID collection
-const _appsflyerAppId =
-    ''; // iOS app id (digits only); keep empty for Android-only builds
-
+const _appsflyerDevKey = 'p4BpJtUybxYwAQpopNyDK8';
 class StartupResult {
   final Uri? link;
   final String message;
@@ -118,7 +113,7 @@ class StartupRepository {
         Uri.parse(_fallbackConfigUrl),
       );
       print(
-        '[StartupRepository] Link parts status: ${response.statusCode}, body: ${response.body}',
+        '------ [StartupRepository] Link parts status: ${response.statusCode}, body: ${response.body}',
       );
       if (response.statusCode == 200) {
         return jsonDecode(response.body) as Map<String, dynamic>;
@@ -210,7 +205,7 @@ class StartupRepository {
     try {
       final DeviceInfoPlugin deviceInfo = DeviceInfoPlugin();
       final android = await deviceInfo.androidInfo;
-      return android.version.release ?? android.version.sdkInt.toString();
+      return android.version.release;
     } catch (error) {
       print('[StartupRepository] os version error: $error');
       return null;
@@ -236,7 +231,6 @@ class StartupRepository {
       final AppsflyerSdk sdk = AppsflyerSdk(
         AppsFlyerOptions(
           afDevKey: _appsflyerDevKey,
-          appId: _appsflyerAppId,
           showDebug: true,
         ),
       );
