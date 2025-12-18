@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "715869760488",
+    "firebase_url": "https://zm-apps-test-default-rtdb.firebaseio.com",
+    "project_id": "zm-apps-test",
+    "storage_bucket": "zm-apps-test.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715869760488:android:518d3932c53b28a98cd25d",
+        "android_client_info": {
+          "package_name": "com.example.zm_apps_test"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX5qJhsRSrz4PMmpoL9_kKGi0JKK9Y5HM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715869760488:android:e1189c6a4e8d80208cd25d",
+        "android_client_info": {
+          "package_name": "com.example.zm_apps_webview_android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX5qJhsRSrz4PMmpoL9_kKGi0JKK9Y5HM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:715869760488:android:c10221349bef9bfc8cd25d",
+        "android_client_info": {
+          "package_name": "om.example.zm_apps_webview_android"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAX5qJhsRSrz4PMmpoL9_kKGi0JKK9Y5HM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

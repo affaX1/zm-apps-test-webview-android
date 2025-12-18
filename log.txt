@@ -1,0 +1,282 @@
+Launching lib/main.dart on sdk gphone arm64 in debug mode...
+✓ Built build/app/outputs/flutter-apk/app-debug.apk
+D/FlutterJNI(16559): Beginning load of flutter...
+D/FlutterJNI(16559): flutter (null) was loaded normally!
+E/flutter (16559): [ERROR:flutter/impeller/toolkit/egl/egl.cc(56)] EGL Error: Success (12288) in ../../../flutter/impeller/toolkit/egl/display.cc:161
+E/flutter (16559): [ERROR:flutter/impeller/toolkit/egl/egl.cc(56)] EGL Error: Success (12288) in ../../../flutter/impeller/toolkit/egl/display.cc:161
+I/flutter (16559): [IMPORTANT:flutter/shell/platform/android/android_context_gl_impeller.cc(104)] Using the Impeller rendering backend (OpenGLES).
+Connecting to VM Service at ws://127.0.0.1:65024/TwspfS8N6tc=/ws
+Connected to the VM Service.
+I/flutter (16559): [StartupRepository] Firebase initialized
+I/flutter (16559): [StartupRepository] Checking cached startup result
+I/flutter (16559): [StartupRepository] No cache found, fetching config
+I/flutter (16559): [StartupRepository] Link parts status: 200, body: {"stray":"snowbirdfwi","swap":"egrgwing.top"}
+I/flutter (16559): [StartupRepository] Built endpoint: https://snowbirdfwiegrgwing.top
+I/flutter (16559): [StartupRepository] collected gaid: 31a78b49-42ec-495e-8d38-3703d27abf92
+I/flutter (16559): [StartupRepository] collected install_referrer: ref=androidDebug;pkg=com.example.zm_apps_webview_android
+I/flutter (16559): [StartupRepository] collected os: 11
+D/AppsFlyer_6.17.4(16559): [Queue] new task added: FETCH_ADVERTISING_ID-FetchAdvertisingIdTask-1
+D/AppsFlyer_6.17.4(16559): [Queue] starting task execution: FETCH_ADVERTISING_ID-FetchAdvertisingIdTask-1
+I/AppsFlyer_6.17.4(16559): [Advertising Id] Trying to fetch GAID...
+D/AppsFlyer_6.17.4(16559): [CFG] No configuration found in cache
+D/AppsFlyer_6.17.4(16559): [Queue] new task added: RC_CDN-UpdateRemoteConfiguration-2
+D/AppsFlyer_6.17.4(16559): [Queue] starting task execution: RC_CDN-UpdateRemoteConfiguration-2
+I/AppsFlyer_6.17.4(16559): [CFG] active config is missing - fetching from CDN
+I/AppsFlyer_6.17.4(16559): [CFG] Cached config is expired, updating...
+D/AppsFlyer_6.17.4(16559): [Referrer] Install referrer is not allowed
+D/AppsFlyer_6.17.4(16559): [HTTP Client] [184024453] GET:https://1qsrw2.cdn-settings.appsflyersdk.com/android/v1/4333bf3019e2b48f3de6f01b05f663712997c01d52df6cac3e50d7dcd4ed19eb/settings
+D/AppsFlyer_6.17.4(16559): [Referrer] Huawei referrer collection disallowed by missing content provider.
+D/AppsFlyer_6.17.4(16559): [Samsung Preload Referrer] Referrer collection disallowed by missing content provider.
+D/AppsFlyer_6.17.4(16559): [Meta Referrer] Facebook app id Manifest metadata is not found.
+D/AppsFlyer_6.17.4(16559): [Meta Referrer] Facebook app id string resource is not found.
+D/AppsFlyer_6.17.4(16559): [Meta Referrer] AF Facebook app id Manifest metadata is not found.
+D/AppsFlyer_6.17.4(16559): [Meta Referrer] Referrer collection disallowed by missing Facebook app id.
+D/AppsFlyer_6.17.4(16559): [Meta Referrer] Facebook app id Manifest metadata is not found.
+D/AppsFlyer_6.17.4(16559): [Meta Referrer] Facebook app id string resource is not found.
+D/AppsFlyer_6.17.4(16559): [Meta Referrer] AF Facebook app id Manifest metadata is not found.
+D/AppsFlyer_6.17.4(16559): [Meta Referrer] Referrer collection disallowed by missing Facebook app id.
+D/AppsFlyer_6.17.4(16559): [Meta Referrer] Facebook app id Manifest metadata is not found.
+D/AppsFlyer_6.17.4(16559): [Meta Referrer] Facebook app id string resource is not found.
+D/AppsFlyer_6.17.4(16559): [Meta Referrer] AF Facebook app id Manifest metadata is not found.
+D/AppsFlyer_6.17.4(16559): [Meta Referrer] Referrer collection disallowed by missing Facebook app id.
+D/AppsFlyer_6.17.4(16559): [General] Initializing AppsFlyer SDK: (v6.17.4.360)
+I/AppsFlyer_6.17.4(16559): [General] Starting AppsFlyer: (v6.17.4.360)
+I/AppsFlyer_6.17.4(16559): [General] Build Number: 360
+D/AppsFlyer_6.17.4(16559): [Queue] tried to add already running task: RC_CDN-UpdateRemoteConfiguration-3
+D/AppsFlyer_6.17.4(16559): [Queue] new task added: LOAD_CACHE-LoadCachedRequests-4
+I/AppsFlyer_6.17.4(16559): [General] appsflyer_backup_rules.xml detected, using AppsFlyer defined backup rules for AppsFlyer SDK data
+W/webview_androi(16559): Accessing hidden method Landroid/app/ActivityThread;->currentApplication()Landroid/app/Application; (greylist, reflection, allowed)
+D/AppsFlyer_6.17.4(16559): [Queue] tried to add already running task: RC_CDN-UpdateRemoteConfiguration-5
+I/AppsFlyer_6.17.4(16559): [Other] onBecameForeground
+D/AppsFlyer_6.17.4(16559): [Queue] tried to add already scheduled task: LOAD_CACHE-LoadCachedRequests-6
+W/webview_androi(16559): Accessing hidden field Ldalvik/system/BaseDexClassLoader;->pathList:Ldalvik/system/DexPathList; (greylist, reflection, allowed)
+W/webview_androi(16559): Accessing hidden field Ldalvik/system/DexPathList;->nativeLibraryDirectories:Ljava/util/List; (greylist, reflection, allowed)
+W/webview_androi(16559): Accessing hidden field Ldalvik/system/DexPathList;->nativeLibraryPathElements:[Ldalvik/system/DexPathList$NativeLibraryElement; (greylist, reflection, allowed)
+D/AppsFlyer_6.17.4(16559): [Queue] starting task execution: LOAD_CACHE-LoadCachedRequests-4
+I/AppsFlyer_6.17.4(16559): [Cache] Get Cached Requests
+I/flutter (16559): [StartupRepository] collected appsflyer_id: 1765917705318-403531679223714053
+I/flutter (16559): [StartupRepository] collected adv_id: 6efeba49-635b-4aee-8477-026fecd72b1c
+I/AppsFlyer_6.17.4(16559): [Cache] Found 0 Cached Requests
+D/AppsFlyer_6.17.4(16559): [Queue] execution finished for FETCH_ADVERTISING_ID-FetchAdvertisingIdTask-1, result: SUCCESS
+D/AppsFlyer_6.17.4(16559): [Queue] execution finished for LOAD_CACHE-LoadCachedRequests-4, result: SUCCESS
+D/AppsFlyer_6.17.4(16559): [Other] No deep link detected
+I/AppsFlyer_6.17.4(16559): [Other] Sending first launch for this session!
+I/AppsFlyer_6.17.4(16559): [General] sendWithEvent from activity: android.app.Application
+I/PlayCore(16559): UID: [10197]  PID: [16559] IntegrityService : requestIntegrityToken(IntegrityTokenRequest{nonce=YjgwMjg5OTkzZjRmM2JkNzA2MDg2ZGI3MzNmNjI3NDE1Y2RmNmRkOTc0OWUwZTUxYTNhZTFiODAzM2Y3NjY0Yw==, cloudProjectNumber=676451317595, network=null})
+I/PlayCore(16559): UID: [10197]  PID: [16559] IntegrityService : Initiate binding to the service.
+I/AppsFlyer_6.17.4(16559): [General] ******* sendTrackingWithEvent: Launch
+I/PlayCore(16559): UID: [10197]  PID: [16559] IntegrityService : Failed to bind to the service.
+D/AppsFlyer_6.17.4(16559): [Queue] new task was blocked: CONVERSION-7
+D/AppsFlyer_6.17.4(16559): [Other] AppsFlyer: first launch detected
+I/AppsFlyer_6.17.4(16559): [General] AppsFlyer: first launch date: 2025-12-17_044145+0800
+D/AppsFlyer_6.17.4(16559): [Other] didConfigureTokenRefreshService=false
+I/AppsFlyer_6.17.4(16559): [Other] IMEI was not collected.
+I/AppsFlyer_6.17.4(16559): [Other] Android ID was not collected.
+D/AppsFlyer_6.17.4(16559): [Other] No OAID library
+I/AppsFlyer_6.17.4(16559): [Other] CONVERSION-7: preparing data: {"platform_extension_v2":{"platform":"android_flutter","version":"6.17.7+1"},"country":"US","af_timestamp":"1765917705335","appsflyerKey":"p********************8","isFirstCall":"true","registeredUninstall":false,"targetSDKver":36,"operator":"T-Mobile","isGaidWithGps":"true","app_version_code":"1","model":"sdk_gphone_arm64","brand":"google","deviceType":"userdebug","deviceData":{"sensors":[{"sT":1,"sV":"The Android Open Source Project","sN":"Goldfish 3-axis Accelerometer"},{"sT":2,"sV":"The Android Open Source Project","sN":"Goldfish 3-axis Magnetic field sensor"},{"sT":4,"sV":"The Android Open Source Project","sN":"Goldfish 3-axis Gyroscope"}],"cpu_abi":"arm64-v8a","build_display_id":"sdk_gphone_arm64-userdebug 11 RSR1.240422.006 12134477 dev-keys","btch":"no","dim":{"xdp":"560.0","ydp":"560.0","x_px":"1440","y_px":"2872","d_dpi":"560","size":"2"},"arch":"","btl":"29.0","cpu_abi2":""},"disk":"3351\/5939","meta":{"fetchAdIdLatency":13,"host":{"name":"appsflyersdk.com","prefix":"1qsrw2."},"first_launch":{"from_fg":34,"start_with":"activity","init_to_fg":5}},"sdk":"30","app_version_name":"1.0.0","device":"emulator_arm64","cksm_v3":"31c22e9eb4877196","af_events_api":"1","cell":{"mcc":310,"mnc":260},"network":"WIFI","timepassedsincelastlaunch":"-1","sig":"D2D2796AF4BC49C5435DDE9A068045BB688662108F21B9FD071AD0DF83504ACF","open_referrer":"android-app:\/\/com.android.shell","uid":"1765917705318-403531679223714053","lang_code":"en","installDate":"2025-12-16_204142+0000","is_pc":false,"firstLaunchDate":"2025-12-17_044145+0800","ivc":false,"lang":"English","batteryLevel":"29.0","last_boot_time":1765880144313,"install_source_info":{},"product":"sdk_gphone_arm64","counter":"1","date2":"2025-12-17_044142+0800","date1":"2025-12-17_044142+0800","advertiserId":"6efeba49-635b-4aee-8477-026fecd72b1c","advertiserIdEnabled":"true","GAID_retry":"false","carrier":"Android","iaecounter":"0","af_preinstalled":"false","tokenRefreshConfigured":false,"platformextension":"android_flutter","kef616c":"f6a1d6c15e7ec1c648191f1b0c531a0d591a1d0d5a1f1c"}
+I/AppsFlyer_6.17.4(16559): [Cache] Caching request with URL: https://1qsrw2.conversions.appsflyersdk.com/api/v6.17/androidevent?app_id=com.example.zm_apps_webview_android&buildnumber=6.17.4
+I/AppsFlyer_6.17.4(16559): [Cache] Cache request: done, cacheKey: 1765917705451
+D/AppsFlyer_6.17.4(16559): [Queue] new task added: CONVERSION-7
+D/AppsFlyer_6.17.4(16559): [Queue] new task was blocked: PLAY_INTEGRITY_API-PIA-8
+D/AppsFlyer_6.17.4(16559): [Queue] new task added: PLAY_INTEGRITY_API-PIA-8
+D/AppsFlyer_6.17.4(16559): [HTTP Client] [184024453] response code:200 OK
+D/AppsFlyer_6.17.4(16559):  body:{"features":{},"ver":"default.v1.1637149529"}
+D/AppsFlyer_6.17.4(16559):  took 860ms
+D/AppsFlyer_6.17.4(16559): [CFG] Config successfully updated, timeToLive: 86400 seconds
+D/AppsFlyer_6.17.4(16559): [Queue] execution finished for RC_CDN-UpdateRemoteConfiguration-2, result: SUCCESS
+D/AppsFlyer_6.17.4(16559): [Queue] starting task execution: CONVERSION-7
+I/AppsFlyer_6.17.4(16559): [General] AppsFlyer: first launch date: 2025-12-17_044145+0800
+D/AppsFlyer_6.17.4(16559): [Other] didConfigureTokenRefreshService=false
+I/AppsFlyer_6.17.4(16559): [Other] IMEI was not collected.
+I/AppsFlyer_6.17.4(16559): [Other] Android ID was not collected.
+D/AppsFlyer_6.17.4(16559): [Other] No OAID library
+I/AppsFlyer_6.17.4(16559): [Other] CONVERSION-7: preparing data: {"platform_extension_v2":{"platform":"android_flutter","version":"6.17.7+1"},"country":"US","af_timestamp":"1765917705335","appsflyerKey":"p********************8","isFirstCall":"true","registeredUninstall":false,"targetSDKver":36,"operator":"T-Mobile","isGaidWithGps":"true","app_version_code":"1","model":"sdk_gphone_arm64","brand":"google","deviceType":"userdebug","deviceData":{"sensors":[{"sT":1,"sVS":[0,9.776321,0.812345],"sV":"The Android Open Source Project","sVE":[0,9.776321,0.812345],"sN":"Goldfish 3-axis Accelerometer"},{"sT":2,"sVS":[0,9.875,-47.75],"sV":"The Android Open Source Project","sVE":[0,9.875,-47.75],"sN":"Goldfish 3-axis Magnetic field sensor"},{"sT":4,"sVS":[0,0,0],"sV":"The Android Open Source Project","sVE":[0,0,0],"sN":"Goldfish 3-axis Gyroscope"}],"cpu_abi":"arm64-v8a","build_display_id":"sdk_gphone_arm64-userdebug 11 RSR1.240422.006 12134477 dev-keys","btch":"no","dim":{"xdp":"560.0","ydp":"560.0","x_px":"1440","y_px":"2872","d_dpi":"560","size":"2"},"arch":"","btl":"29.0","cpu_abi2":""},"disk":"3351\/5939","meta":{"rc":{"sig":"success","delay":862,"c_ver":"default.v1.1637149529","latency":860,"cdn_token":"4333bf3019e2b48f3de6f01b05f663712997c01d52df6cac3e50d7dcd4ed19eb","res_code":200},"fetchAdIdLatency":13,"host":{"name":"appsflyersdk.com","prefix":"1qsrw2."},"first_launch":{"from_fg":865,"start_with":"activity","init_to_fg":5}},"sdk":"30","app_version_name":"1.0.0","device":"emulator_arm64","cksm_v3":"31c22e9eb4877196","af_events_api":"1","cell":{"mcc":310,"mnc":260},"network":"WIFI","timepassedsincelastlaunch":"0","sig":"D2D2796AF4BC49C5435DDE9A068045BB688662108F21B9FD071AD0DF83504ACF","open_referrer":"android-app:\/\/com.android.shell","uid":"1765917705318-403531679223714053","lang_code":"en","installDate":"2025-12-16_204142+0000","is_pc":false,"firstLaunchDate":"2025-12-17_044145+0800","ivc":false,"lang":"English","batteryLevel":"29.0","last_boot_time":1765880144313,"install_source_info":{},"product":"sdk_gphone_arm64","counter":"1","date2":"2025-12-17_044142+0800","date1":"2025-12-17_044142+0800","advertiserId":"6efeba49-635b-4aee-8477-026fecd72b1c","advertiserIdEnabled":"true","GAID_retry":"false","carrier":"Android","iaecounter":"0","af_preinstalled":"false","tokenRefreshConfigured":false,"platformextension":"android_flutter","kef616c":"f6a1d6c15e7ec1c648191f1b0c531a0d591a1d0d5a1f13"}
+I/AppsFlyer_6.17.4(16559): [Cache] Caching request with URL: https://1qsrw2.conversions.appsflyersdk.com/api/v6.17/androidevent?app_id=com.example.zm_apps_webview_android&buildnumber=6.17.4
+I/AppsFlyer_6.17.4(16559): [Cache] Cache request: done, cacheKey: 1765917706264
+I/AppsFlyer_6.17.4(16559): [Cache] Cache overflown for type CONVERSION, removing 1 item(s)
+I/AppsFlyer_6.17.4(16559): [Cache] Cache entry 1765917705451 removed
+I/AppsFlyer_6.17.4(16559): [Cache] Deleting 1765917705451 from cache
+D/AppsFlyer_6.17.4(16559): [HTTP Client] [78930537] POST:https://1qsrw2.conversions.appsflyersdk.com/api/v6.17/androidevent?app_id=com.example.zm_apps_webview_android&buildnumber=6.17.4
+D/AppsFlyer_6.17.4(16559):  payload: <encrypted>
+I/flutter (16559): [StartupRepository] collected fcm_token: d12_j40ARKK5OfluymwY2K:APA91bGp41ifjMdn-N3v3Oe6JhqyRbmRcpn2Ms-x-yrGMhT8R4n7nObYCY22PsIxeUwFo2ggC8sZEfYCZSShZfZhGjqBt29XsbxvrENs0TLRvrLIqR8XOfw
+I/flutter (16559): [StartupRepository] Built payload: {adv_id: 6efeba49-635b-4aee-8477-026fecd72b1c, fcm_token: d12_j40ARKK5OfluymwY2K:APA91bGp41ifjMdn-N3v3Oe6JhqyRbmRcpn2Ms-x-yrGMhT8R4n7nObYCY22PsIxeUwFo2ggC8sZEfYCZSShZfZhGjqBt29XsbxvrENs0TLRvrLIqR8XOfw, install_referrer: ref=androidDebug;pkg=com.example.zm_apps_webview_android, os: 11, gaid: 31a78b49-42ec-495e-8d38-3703d27abf92, appsflyer_id: 1765917705318-403531679223714053, flag: 0}
+I/flutter (16559): [StartupRepository] Payload JSON: {"adv_id":"6efeba49-635b-4aee-8477-026fecd72b1c","fcm_token":"d12_j40ARKK5OfluymwY2K:APA91bGp41ifjMdn-N3v3Oe6JhqyRbmRcpn2Ms-x-yrGMhT8R4n7nObYCY22PsIxeUwFo2ggC8sZEfYCZSShZfZhGjqBt29XsbxvrENs0TLRvrLIqR8XOfw","install_referrer":"ref=androidDebug;pkg=com.example.zm_apps_webview_android","os":"11","gaid":"31a78b49-42ec-495e-8d38-3703d27abf92","appsflyer_id":"1765917705318-403531679223714053","flag":0}
+I/flutter (16559): [StartupRepository] Sending POST to https://snowbirdfwiegrgwing.top
+D/AppsFlyer_6.17.4(16559): [HTTP Client] [78930537] response code:200 OK
+D/AppsFlyer_6.17.4(16559):  body:ok
+D/AppsFlyer_6.17.4(16559):  took 731ms
+I/AppsFlyer_6.17.4(16559): [Cache] Deleting 1765917706264 from cache
+D/AppsFlyer_6.17.4(16559): [Queue] execution finished for CONVERSION-7, result: SUCCESS
+D/AppsFlyer_6.17.4(16559): [Queue] starting task execution: PLAY_INTEGRITY_API-PIA-8
+I/AppsFlyer_6.17.4(16559): [Other] PLAY_INTEGRITY_API-PIA-8: preparing data: {"uid":"1765917705318-403531679223714053","sdk_version":"6.17.4","pia":{"pia_timestamp":1765917705333,"ttr_millis":6,"error_code":"pia-9"},"app_version_name":"1.0.0","app_id":"com.example.zm_apps_webview_android"}
+D/AppsFlyer_6.17.4(16559): [HTTP Client] [22697272] POST:https://1qsrw2.pia.appsflyersdk.com/api/v1.0/pia-android-event?app_id=com.example.zm_apps_webview_android&buildnumber=6.17.4
+D/AppsFlyer_6.17.4(16559):  payload: <encrypted>
+D/AppsFlyer_6.17.4(16559): [HTTP Client] [22697272] response code:200 OK
+D/AppsFlyer_6.17.4(16559):  body:
+D/AppsFlyer_6.17.4(16559):  took 790ms
+D/AppsFlyer_6.17.4(16559): [Queue] execution finished for PLAY_INTEGRITY_API-PIA-8, result: SUCCESS
+D/ProfileInstaller(16559): Installing profile for com.example.zm_apps_webview_android
+I/flutter (16559): [StartupRepository] Handshake status: 200, body: {"link":"https://grandclickz.com/cbghdf0ieowufztl4ihz&t6=TJ&app_domain=snowbirdfwiegrgwing.top&t9=1765917705318-403531679223714053","message":"can't build install referrer","passed":true}
+I/flutter (16559): [StartupRepository] Cached fresh result: {link: https://grandclickz.com/cbghdf0ieowufztl4ihz&t6=TJ&app_domain=snowbirdfwiegrgwing.top&t9=1765917705318-403531679223714053, message: can't build install referrer, passed: true}
+I/flutter (16559): [App] Startup result: Instance of 'StartupResult'
+I/WebViewFactory(16559): Loading com.google.android.webview version 91.0.4472.114 (code 447211484)
+I/webview_androi(16559): The ClassLoaderContext is a special shared library.
+D/nativeloader(16559): classloader namespace configured for unbundled product apk. library_path=/product/app/WebViewGoogle64/lib/arm64:/product/app/WebViewGoogle64/WebViewGoogle64.apk!/lib/arm64-v8a:/product/app/TrichromeLibrary64/TrichromeLibrary64.apk!/lib/arm64-v8a:/product/lib64:/system/product/lib64
+I/webview_androi(16559): The ClassLoaderContext is a special shared library.
+D/nativeloader(16559): classloader namespace configured for unbundled product apk. library_path=/product/app/WebViewGoogle64/lib/arm64:/product/app/WebViewGoogle64/WebViewGoogle64.apk!/lib/arm64-v8a:/product/app/TrichromeLibrary64/TrichromeLibrary64.apk!/lib/arm64-v8a:/product/lib64:/system/product/lib64
+W/webview_androi(16559): Accessing hidden method Landroid/os/Trace;->isTagEnabled(J)Z (greylist, reflection, allowed)
+W/webview_androi(16559): Accessing hidden method Landroid/os/Trace;->traceBegin(JLjava/lang/String;)V (greylist, reflection, allowed)
+W/webview_androi(16559): Accessing hidden method Landroid/os/Trace;->traceEnd(J)V (greylist, reflection, allowed)
+W/webview_androi(16559): Accessing hidden method Landroid/os/Trace;->asyncTraceBegin(JLjava/lang/String;I)V (greylist, reflection, allowed)
+W/webview_androi(16559): Accessing hidden method Landroid/os/Trace;->asyncTraceEnd(JLjava/lang/String;I)V (greylist, reflection, allowed)
+I/cr_LibraryLoader(16559): Loaded native library version number "91.0.4472.114"
+I/cr_CachingUmaRecorder(16559): Flushed 5 samples from 5 histograms.
+I/cr_VariationsUtils(16559): Failed reading seed file "/data/user/0/com.example.zm_apps_webview_android/app_webview/variations_seed_new"
+I/cr_VariationsUtils(16559): Failed reading seed file "/data/user/0/com.example.zm_apps_webview_android/app_webview/variations_seed"
+I/cr_VariationsUtils(16559): Requesting new seed from IVariationsSeedServer
+W/webview_androi(16559): Accessing hidden method Landroid/media/AudioManager;->getOutputLatency(I)I (greylist, reflection, allowed)
+D/HostConnection(16559): HostConnection::get() New Host Connection established 0xb4000073d22dcdd0, tid 16720
+W/cr_media(16559): Requires BLUETOOTH permission
+D/HostConnection(16559): HostComposition ext ANDROID_EMU_CHECKSUM_HELPER_v1 ANDROID_EMU_native_sync_v2 ANDROID_EMU_native_sync_v3 ANDROID_EMU_native_sync_v4 ANDROID_EMU_dma_v1 ANDROID_EMU_direct_mem ANDROID_EMU_host_composition_v1 ANDROID_EMU_host_composition_v2 ANDROID_EMU_vulkan ANDROID_EMU_deferred_vulkan_commands ANDROID_EMU_vulkan_null_optional_strings ANDROID_EMU_vulkan_create_resources_with_requirements ANDROID_EMU_YUV_Cache ANDROID_EMU_vulkan_ignored_handles ANDROID_EMU_has_shared_slots_host_memory_allocator ANDROID_EMU_vulkan_free_memory_sync ANDROID_EMU_vulkan_shader_float16_int8 ANDROID_EMU_vulkan_async_queue_submit ANDROID_EMU_sync_buffer_data ANDROID_EMU_vulkan_async_qsri ANDROID_EMU_read_color_buffer_dma GL_OES_EGL_image_external_essl3 GL_OES_vertex_array_object ANDROID_EMU_host_side_tracing ANDROID_EMU_gles_max_version_3_0
+D/EGL_emulation(16559): eglCreateContext: 0xb4000073c26c2c30: maj 3 min 0 rcv 3
+D/EGL_emulation(16559): eglMakeCurrent: 0xb4000073c26c2c30: ver 3 0 (tinfo 0xb4000073623c1870) (first time)
+I/PlatformViewsController(16559): Hosting view in view hierarchy for platform view: 0
+I/PlatformViewsController(16559): PlatformView is using SurfaceProducer backend
+W/Gralloc4(16559): allocator 3.x is not supported
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+D/EGL_emulation(16559): eglCreateContext: 0xb4000073c26c2c30: maj 3 min 0 rcv 3
+D/EGL_emulation(16559): eglCreateContext: 0xb4000073c26c79e0: maj 3 min 0 rcv 3
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+D/ImageReaderSurfaceProducer(16559): ImageTextureEntry can't wait on the fence on Android < 33
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+I/chatty  (16559): uid=10197(com.example.zm_apps_webview_android) RenderThread identical 215 lines
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+I/chromium(16559): [INFO:CONSOLE(20)] "Fetch tlsfp error TypeError: Failed to fetch", source: https://front.cdn-global-mb.com/spa-static/1.4.1919/static/js/20138.b040fb07.chunk.js (20)
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+I/chatty  (16559): uid=10197(com.example.zm_apps_webview_android) RenderThread identical 41 lines
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+D/EGL_emulation(16559): eglCreateContext: 0xb4000073c26d2880: maj 3 min 0 rcv 3
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+W/cr_MediaCodecUtil(16559): HW encoder for video/avc is not available on this device.
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+I/chatty  (16559): uid=10197(com.example.zm_apps_webview_android) RenderThread identical 1 line
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+D/EGL_emulation(16559): eglCreateContext: 0xb4000073c26d69d0: maj 3 min 0 rcv 3
+D/EGL_emulation(16559): eglCreateContext: 0xb4000073c26d7420: maj 3 min 0 rcv 3
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+I/chromium(16559): [INFO:CONSOLE(0)] " ", source:  (0)
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+I/AAudio  (16559): AAudioStreamBuilder_openStream() called ----------------------------------------
+I/AudioStreamBuilder(16559): rate   =  44100, channels  = 2, format   = 5, sharing = SH, dir = OUTPUT
+I/AudioStreamBuilder(16559): device =      0, sessionId = -1, perfMode = 12, callback: ON with frames = 2048
+I/AudioStreamBuilder(16559): usage  =      1, contentType = 0, inputPreset = 0, allowedCapturePolicy = 0
+I/AudioStreamBuilder(16559): privacy sensitive = false
+D/webview_androi(16559): PlayerBase::PlayerBase()
+D/AudioStreamTrack(16559): open(), request notificationFrames = -8, frameCount = 0
+D/AudioTrack(16559): createTrack_l(113): AUDIO_OUTPUT_FLAG_FAST denied by server; frameCount 0 -> 1956
+D/AAudioStream(16559): setState(s#1) from 0 to 2
+W/AudioStreamTrack(16559): open() flags changed from 0x00000104 to 0x00000000
+W/AudioStreamTrack(16559): open() perfMode changed from 12 to 10
+I/AAudio  (16559): AAudioStreamBuilder_openStream() returns 0 = AAUDIO_OK for s#1 ----------------
+D/AAudio  (16559): AAudioStream_requestStart(s#1) called --------------
+D/AAudioStream(16559): setState(s#1) from 2 to 3
+D/webview_androi(16559): PlayerBase::start() from IPlayer
+D/AAudio  (16559): AAudioStream_requestStart(s#1) returned 0 ---------
+D/AudioStreamLegacy(16559): onAudioDeviceUpdate() devId 2 => 2
+D/AAudioStream(16559): setState(s#1) from 3 to 4
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+I/chatty  (16559): uid=10197(com.example.zm_apps_webview_android) RenderThread identical 12 lines
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+I/chatty  (16559): uid=10197(com.example.zm_apps_webview_android) RenderThread identical 8 lines
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+I/chatty  (16559): uid=10197(com.example.zm_apps_webview_android) RenderThread identical 11 lines
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+I/chatty  (16559): uid=10197(com.example.zm_apps_webview_android) RenderThread identical 17 lines
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+D/EGL_emulation(16559): eglCreateContext: 0xb4000073c26d5740: maj 3 min 0 rcv 3
+D/EGL_emulation(16559): eglCreateContext: 0xb4000073c23bf4d0: maj 3 min 0 rcv 3
+D/EGL_emulation(16559): eglCreateContext: 0xb4000073c2349180: maj 3 min 0 rcv 3
+I/chromium(16559): [INFO:CONSOLE(20)] "null", source: https://front.cdn-global-mb.com/spa-static/1.4.1919/static/js/20138.b040fb07.chunk.js (20)
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+I/chatty  (16559): uid=10197(com.example.zm_apps_webview_android) RenderThread identical 53 lines
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+I/AppsFlyer_6.17.4(16559): [Other] onBecameBackground
+I/AppsFlyer_6.17.4(16559): [Other] callStatsBackground background call
+D/AppsFlyer_6.17.4(16559): [Other] RD status is OFF
+I/chromium(16559): [INFO:CONSOLE(20)] "20:42:56.086Z RST/Tracker: Catched event handle error TypeError: Converting circular structure to JSON
+I/chromium(16559):     --> starting at object with constructor 'HTMLImageElement'
+I/chromium(16559):     |     property '__reactFiber$ufwmrtrwyyq' -> object with constructor 'uf'
+I/chromium(16559):     --- property 'stateNode' closes the circle", source: https://front.cdn-global-mb.com/spa-static/1.4.1919/static/js/20138.b040fb07.chunk.js (20)
+I/chromium(16559): [INFO:CONSOLE(20)] "20:42:56.087Z RST/Tracker: Catched event handle error TypeError: Converting circular structure to JSON
+I/chromium(16559):     --> starting at object with constructor 'HTMLDivElement'
+I/chromium(16559):     |     property '__reactFiber$ufwmrtrwyyq' -> object with constructor 'uf'
+I/chromium(16559):     --- property 'stateNode' closes the circle", source: https://front.cdn-global-mb.com/spa-static/1.4.1919/static/js/20138.b040fb07.chunk.js (20)
+I/FA      (16559): Application backgrounded at: timestamp_millis: 1765917775354
+D/AAudio  (16559): AAudioStream_requestStop(s#1) called
+D/AAudioStream(16559): setState(s#1) from 4 to 9
+D/AudioTrack(16559): stop(26): called with 1294776 frames delivered
+D/webview_androi(16559): PlayerBase::stop() from IPlayer
+D/AAudioStream(16559): setState(s#1) from 9 to 10
+D/AAudio  (16559): AAudioStream_close(s#1) called ---------------
+D/AAudioStream(16559): setState(s#1) from 10 to 11
+D/AAudioStream(16559): setState(s#1) from 11 to 12
+D/AAudio  (16559): AAudioStream_close(s#1) returned 0 ---------
+D/FLTFireMsgReceiver(16559): broadcast received for message
+W/FLTFireMsgService(16559): A background message could not be handled in Dart as no onBackgroundMessage handler has been registered.
+W/webview_androi(16559): Accessing hidden method Landroid/os/WorkSource;->add(I)Z (greylist,test-api, reflection, allowed)
+W/webview_androi(16559): Accessing hidden method Landroid/os/WorkSource;->add(ILjava/lang/String;)Z (greylist,test-api, reflection, allowed)
+W/webview_androi(16559): Accessing hidden method Landroid/os/WorkSource;->get(I)I (greylist, reflection, allowed)
+W/webview_androi(16559): Accessing hidden method Landroid/os/WorkSource;->getName(I)Ljava/lang/String; (greylist, reflection, allowed)
+W/FirebaseMessaging(16559): Missing Default Notification Channel metadata in AndroidManifest. Default value will be used.
+D/FLTFireMsgReceiver(16559): broadcast received for message
+W/FLTFireMsgService(16559): A background message could not be handled in Dart as no onBackgroundMessage handler has been registered.
+W/FirebaseMessaging(16559): Missing Default Notification Channel metadata in AndroidManifest. Default value will be used.
+I/AppsFlyer_6.17.4(16559): [Other] onBecameForeground
+D/AppsFlyer_6.17.4(16559): [Other] No deep link detected
+D/AppsFlyer_6.17.4(16559): [Queue] new task added: RC_CDN-UpdateRemoteConfiguration-9
+D/AppsFlyer_6.17.4(16559): [Queue] starting task execution: RC_CDN-UpdateRemoteConfiguration-9
+D/AppsFlyer_6.17.4(16559): [CFG] active config is valid, skipping fetch
+D/AppsFlyer_6.17.4(16559): [Queue] execution finished for RC_CDN-UpdateRemoteConfiguration-9, result: SUCCESS
+I/AppsFlyer_6.17.4(16559): [Other] Last Launch attempt: 2025/12/16 20:41:45.333 +0000;
+I/AppsFlyer_6.17.4(16559): Last successful Launch event: 2025/12/16 20:41:47.000 +0000;
+I/AppsFlyer_6.17.4(16559): Sending launch (+108641 ms)
+I/AppsFlyer_6.17.4(16559): [General] sendWithEvent from activity: android.app.Application
+I/AppsFlyer_6.17.4(16559): [General] ******* sendTrackingWithEvent: Launch
+D/AppsFlyer_6.17.4(16559): [Queue] new task added: LAUNCH-10
+D/AppsFlyer_6.17.4(16559): [Queue] starting task execution: LAUNCH-10
+I/AppsFlyer_6.17.4(16559): [General] AppsFlyer: first launch date: 2025-12-17_044145+0800
+D/AppsFlyer_6.17.4(16559): [Other] didConfigureTokenRefreshService=false
+I/AppsFlyer_6.17.4(16559): [Other] IMEI was not collected.
+I/AppsFlyer_6.17.4(16559): [Other] Android ID was not collected.
+D/AppsFlyer_6.17.4(16559): [Other] No OAID library
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+I/AppsFlyer_6.17.4(16559): [Other] LAUNCH-10: preparing data: {"platform_extension_v2":{"platform":"android_flutter","version":"6.17.7+1"},"country":"US","af_timestamp":"1765917813981","appsflyerKey":"p********************8","isFirstCall":"false","registeredUninstall":false,"targetSDKver":36,"operator":"T-Mobile","isGaidWithGps":"true","app_version_code":"1","model":"sdk_gphone_arm64","brand":"google","deviceType":"userdebug","deviceData":{"sensors":[{"sT":1,"sVS":[0,9.776321,0.812345],"sV":"The Android Open Source Project","sVE":[0,9.776321,0.812345],"sN":"Goldfish 3-axis Accelerometer"},{"sT":2,"sVS":[0,9.875,-47.75],"sV":"The Android Open Source Project","sVE":[0,9.875,-47.75],"sN":"Goldfish 3-axis Magnetic field sensor"},{"sT":4,"sVS":[0,0,0],"sV":"The Android Open Source Project","sVE":[0,0,0],"sN":"Goldfish 3-axis Gyroscope"}],"cpu_abi":"arm64-v8a","build_display_id":"sdk_gphone_arm64-userdebug 11 RSR1.240422.006 12134477 dev-keys","btch":"no","dim":{"xdp":"560.0","ydp":"560.0","x_px":"1440","y_px":"2872","d_dpi":"560","size":"2"},"arch":"","btl":"29.0","cpu_abi2":""},"disk":"3338\/5939","meta":{"fetchAdIdLatency":13,"host":{"name":"appsflyersdk.com","prefix":"1qsrw2."},"first_launch":{"net":810,"from_fg":865,"start_with":"activity","init_to_fg":5}},"sdk":"30","app_version_name":"1.0.0","device":"emulator_arm64","cksm_v3":"0adfe2d919b7780e","af_events_api":"1","kef6567":"0889712b24b5cfbe48191f1b0c531a0d591a1d0d5a1f1c","prev_session_dur":70,"cell":{"mcc":310,"mnc":260},"network":"WIFI","timepassedsincelastlaunch":"107","sig":"D2D2796AF4BC49C5435DDE9A068045BB688662108F21B9FD071AD0DF83504ACF","open_referrer":"android-app:\/\/com.android.shell","uid":"1765917705318-403531679223714053","lang_code":"en","installDate":"2025-12-16_204142+0000","is_pc":false,"firstLaunchDate":"2025-12-17_044145+0800","ivc":false,"lang":"English","last_boot_time":1765880144313,"install_source_info":{},"product":"sdk_gphone_arm64","counter":"2","date2":"2025-12-17_044142+0800","date1":"2025-12-17_044142+0800","advertiserId":"6efeba49-635b-4aee-8477-026fecd72b1c","advertiserIdEnabled":"true","GAID_retry":"false","carrier":"Android","iaecounter":"0","af_preinstalled":"false","tokenRefreshConfigured":false,"platformextension":"android_flutter"}
+I/AppsFlyer_6.17.4(16559): [Cache] Caching request with URL: https://1qsrw2.launches.appsflyersdk.com/api/v6.17/androidevent?app_id=com.example.zm_apps_webview_android&buildnumber=6.17.4
+I/AppsFlyer_6.17.4(16559): [Cache] Cache request: done, cacheKey: 1765917814123
+D/AppsFlyer_6.17.4(16559): [HTTP Client] [172246337] POST:https://1qsrw2.launches.appsflyersdk.com/api/v6.17/androidevent?app_id=com.example.zm_apps_webview_android&buildnumber=6.17.4
+D/AppsFlyer_6.17.4(16559):  payload: <encrypted>
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+D/AppsFlyer_6.17.4(16559): [HTTP Client] [172246337] response code:200 OK
+D/AppsFlyer_6.17.4(16559):  body:ok
+D/AppsFlyer_6.17.4(16559):  took 1053ms
+I/AppsFlyer_6.17.4(16559): [Cache] Deleting 1765917814123 from cache
+D/AppsFlyer_6.17.4(16559): [Queue] execution finished for LAUNCH-10, result: SUCCESS
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+I/chatty  (16559): uid=10197(com.example.zm_apps_webview_android) RenderThread identical 15 lines
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+I/chatty  (16559): uid=10197(com.example.zm_apps_webview_android) RenderThread identical 16 lines
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
+E/FrameEvents(16559): updateAcquireFence: Did not find frame.
