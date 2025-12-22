@@ -15,7 +15,7 @@ const _cacheKey = 'startup_response_cache_v1';
 const _linkHeadKey = 'stray';
 const _linkTailKey = 'swap';
 const _gaidCacheKey = 'gaid_cache_v1';
-const _appsflyerDevKey = 'p4BpJtUybxYwAQpopNyDK8';
+const _appsflyerDevKey = 'P8Cmc5f5JjkNjQ3haoGbWS';
 class StartupResult {
   final Uri? link;
   final String message;
