@@ -12,24 +12,20 @@
 dependencies:
   flutter:
     sdk: flutter
+  flutter_inappwebview: ^6.1.5
+  permission_handler: ^12.0.1
   url_launcher: ^6.3.2
-  webview_flutter: ^4.13.0
-  webview_flutter_wkwebview: ^3.23.5
-  webview_flutter_android: ^4.10.11
-  http: ^1.5.0
-  device_info_plus: ^9.1.1
-  package_info_plus: ^8.0.0
-  firebase_core: ^3.2.0
-  firebase_messaging: ^15.0.4
-  firebase_analytics: ^11.1.0
+  device_info_plus: ^12.3.0
+  firebase_messaging: ^16.1.0
+  firebase_core: ^4.3.0
   appsflyer_sdk: ^6.17.7+1
-  advertising_id: ^2.0.0
+  install_referrer: ^1.2.1
+  advertising_id: ^2.7.1
+  http: ^1.6.0
+  uuid: ^4.5.2
   install_referrer:
     path: third_party/install_referrer
   shared_preferences: ^2.2.3
-  uuid: ^4.4.0
-  flutter_inappwebview: ^6.1.5
-  permission_handler: ^11.3.1
 
 dependency_overrides:
   flutter_inappwebview_android:
